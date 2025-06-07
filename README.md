@@ -91,4 +91,4 @@ Before running the bot, you need to create and configure the following `.txt` fi
 ## Credits
 
 * This script is a Python conversion of the original NodeJS version created by **NTExhaust**.
-* Adapted and maintained by **Airdropversity ID**.
+* Adapted and maintained by [**Airdropversity ID**](https://t.me/AirdropversityID).
