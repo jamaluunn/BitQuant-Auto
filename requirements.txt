@@ -1,0 +1,8 @@
+httpx[http2]
+solders
+base58
+pynacl
+rich
+pyfiglet
+pytz
+halo
