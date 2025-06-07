@@ -23,8 +23,8 @@ This is a Python-based bot designed to automate chat interactions on the BitQuan
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/jamaluunn/BitQuant-Auto.git
+    cd BitQuant-Auto
     ```
 
 2.  **Create a Virtual Environment**
