@@ -269,7 +269,7 @@ async def start_countdown(duration_seconds):
     while (remaining := end_time - time.time()) > 0:
         hours, rem = divmod(remaining, 3600)
         minutes, seconds = divmod(rem, 60)
-        sys.stdout.write(f" [cyan]┊ ⏳ Waiting To Next Loop: {int(hours):02}:{int(minutes):02}:{int(seconds):02}\r[/cyan]")
+        sys.stdout.write(f"\033[96m┊ ⏳ Waiting To Next Loop: {int(hours):02}:{int(minutes):02}:{int(seconds):02}\033[0m\r")
         sys.stdout.flush()
         await asyncio.sleep(1)
     clear_console_line()
@@ -303,7 +303,7 @@ async def main():
         chat_count = DAILY_CHAT_LIMIT
         console.print(f"[cyan]┊ Setting chat count to {chat_count}[/cyan]")
     
-    use_proxy = Prompt.ask("[white]Do You Want To Use Proxy? (y/n)[/white]", choices=['y', 'n'], default='n')
+    use_proxy = Prompt.ask("[white]Do You Want To Use Proxy? [/white]", choices=['y', 'n'], default='n')
     proxies = []
     if use_proxy.lower() == 'y':
         try:
