@@ -1,6 +1,6 @@
 # BitQuant Auto-Bot
 
-This is a Python-based bot designed to automate chat interactions on the BitQuant platform to earn points. It is a conversion and modification of the original NodeJS script by NTExhaust.
+This is a Python-based bot designed to automate chat interactions on the BitQuant platform to earn points. It is a conversion and modification of the original NodeJS script by NTExhaust and Vonssy.
 
 ## Features
 
